@@ -1,0 +1,77 @@
+
+    body {
+    background-image: url('https://t4.ftcdn.net/jpg/02/59/50/77/360_F_259507742_GfubalDmixiV25WEYpk39a0Wxs2ALKhS.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    h1 {
+    color: #4d0000;
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+    }
+
+    img {
+    display: block;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+        nav {
+        background-color: #FFDAB9;
+        padding: 10px;
+        text-align: right;
+    }
+    nav a {
+        color: #000;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    nav a:first-child {
+        margin-left: 0;
+    }
+    nav a:hover {
+        color: #FFF;
+    }
+    header {
+        background-color: #FFA500;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+    }
+    h1 {
+        color: #4d0000;
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    h2 {
+    color: #FFF;
+    font-size: 24px;
+    margin-top: 20;
+    text-align: center;
+    margin-left: 20px; /* added left margin */
+    margin-right: 20px; /* added right margin */
+    }
+    
+ .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background-color: #eee; /* Background color of the container */
+    }
+
+.container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    mix-blend-mode: multiply; /* Blend mode for the image */
+    opacity: 0.6; /* Opacity of the image */
+}

@@ -1,0 +1,89 @@
+
+body {
+    background-color: #FFF8DC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FFA500;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #FFDAB9;
+    padding: 10px;
+    text-align: right;
+}
+nav a {
+    color: #000;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:first-child {
+    margin-left: 0;
+}
+nav a:hover {
+    color: #FFF;
+}
+section {
+background-image: url('https://t3.ftcdn.net/jpg/04/39/13/38/360_F_439133895_onj3ijBEgJB6JZbG3Nc9gbWeH2ewBgPp.jpg');
+background-position: center top; /* shift image upwards */
+background-size: 100% 90vh; /* stretch the image towards left and right */
+padding: 50px;
+text-align: center;
+color: #FFF;
+background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+
+
+h1 {
+    color: #4d0000;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+color: #FFF;
+font-size: 24px;
+margin-top: 20;
+text-align: center;
+margin-left: 20px; /* added left margin */
+margin-right: 20px; /* added right margin */
+}
+
+p {
+font-size: 18px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+margin-top: 30;
+text-align: center;
+z-index: 1;
+margin-left: 100px; /* added left margin */
+margin-right: 100px; /* added right margin */
+
+}
+
+h3 {
+color: #FFF;
+font-size: 24px;
+margin-top: 40px;
+text-align: center;
+margin-left: 20px; /* added left margin */
+margin-right: 20px; /* added right margin */
+}
+
+.content-box {
+border: 1px solid transparent; /* make border transparent */
+background-color: transparent; /* make background transparent */
+padding: 10px; /* add some padding for the content */
+width: 80%; /* set width */
+margin: auto; /* center horizontally */
+text-align: left;
+}
+

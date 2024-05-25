@@ -1,0 +1,52 @@
+
+
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/02/59/50/77/360_F_259507742_GfubalDmixiV25WEYpk39a0Wxs2ALKhS.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4d0000;
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+}
+
+img#preview {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4d0000;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF8C00;
+}
+
